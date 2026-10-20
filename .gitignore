@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+dist/
+research/
+.build-home/
+.build-tools/
+installer/vendor/
+.vs/
+.idea/
+*.user
+*.suo
+*.log
+artifacts/
+# Capturas y registros de pruebas locales; revisar antes de compartir.
+docs/previews/

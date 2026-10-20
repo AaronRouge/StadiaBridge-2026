@@ -1,0 +1,25 @@
+name: Comprobar Windows
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Comprobar y publicar portable
+        shell: pwsh
+        run: ./build.ps1
+
+# Referencias: https://github.com/actions/checkout/tree/v4
+# https://github.com/actions/setup-dotnet/tree/v4
+# Este flujo no instala controladores ni publica releases.

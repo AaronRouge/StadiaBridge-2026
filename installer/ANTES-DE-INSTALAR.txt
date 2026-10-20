@@ -1,0 +1,11 @@
+STADIA BRIDGE - TODO EN UNO
+
+Este instalador incluye la aplicación, su runtime .NET y el instalador oficial firmado de ViGEmBus 1.22.0. No necesita Internet durante la instalación.
+
+Windows solicitará permisos de administrador para instalar la aplicación y el controlador. Si ViGEmBus ya está instalado, se conserva. Si Windows necesita reiniciar, el instalador lo indicará.
+
+Después de instalar, conecta el mando Stadia por USB y abre Stadia Bridge. El panel detecta el mando automáticamente: pulsa cualquier botón o mueve un stick para ver su respuesta. Pulsa Probar motores para comprobar la vibración o Conectar para reanudar una conexión detenida. El estado indica cuándo está activo el mando Xbox 360 virtual para juegos compatibles con XInput.
+
+Esta versión admite un mando USB y vibración. Bluetooth sigue pendiente. ViGEmBus es una dependencia de terceros archivada, distribuida sin modificar con sus propios avisos y licencia.
+
+Al desinstalar Stadia Bridge, ViGEmBus se conserva porque puede ser utilizado por otros programas. Puedes desinstalarlo por separado desde Aplicaciones instaladas si ya no lo necesitas.
