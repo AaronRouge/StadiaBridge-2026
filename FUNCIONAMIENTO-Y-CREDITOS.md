@@ -2,7 +2,7 @@
 
 Documento de referencia para preparar una publicación gratuita y comunitaria en GitHub.
 
-**Versión documentada:** 0.7.1 · **Fecha:** 20 de octubre de 2026 · **Plataforma:** Windows x64.
+**Versión documentada:** 0.7.2 · **Fecha:** 20 de octubre de 2026 · **Plataforma:** Windows x64 · **Autor y mantenimiento:** [AaronRouge](https://github.com/AaronRouge).
 
 Este documento describe lo implementado y lo pendiente. No implica que el proyecto ya esté publicado ni que los proyectos citados avalen esta aplicación.
 
@@ -160,13 +160,13 @@ La organización local ya está aplicada. La publicación remota sigue pendiente
 
 El objetivo es permitir que otras personas descarguen y utilicen Stadia Bridge gratuitamente. Para permitir también estudiar, modificar y redistribuir el código, se ha añadido una licencia explícita al repositorio.
 
-Se ha añadido [MIT para el código propio](LICENSE), con el crédito colectivo «Stadia Bridge contributors». El responsable puede precisar esa identificación antes de publicar. Las licencias de los componentes externos se mantienen por separado: no podemos cambiar su autoría ni relicenciarlos como si fueran nuestros.
+Se ha añadido [MIT para el código propio](LICENSE), con copyright a nombre de [AaronRouge](https://github.com/AaronRouge). Las licencias de los componentes externos se mantienen por separado: no podemos cambiar su autoría ni relicenciarlos como si fueran nuestros.
 
 Dar créditos no reemplaza conservar los textos de licencia y avisos exigidos. Elegir MIT tampoco obliga a nadie a cobrar: este proyecto puede ofrecerse gratuitamente a la comunidad.
 
 ### Lista de preparación
 
-- [ ] Elegir el nombre público del repositorio, responsable y titular del copyright.
+- [x] Repositorio público oficial: [AaronRouge/StadiaBridge-2026](https://github.com/AaronRouge/StadiaBridge-2026).
 - [x] Añadir `LICENSE` para el código propio, conservar la licencia del bus y documentar los avisos de terceros y del runtime.
 - [x] Mantener la procedencia y los hashes de las dependencias, diferenciando la revisión de las cabeceras del origen de la DLL.
 - [ ] Crear un paso reproducible de adquisición de ViGEmClient, ViGEmBus y la herramienta de empaquetado, con versiones fijas y comprobación de hashes y firmas cuando existan.
