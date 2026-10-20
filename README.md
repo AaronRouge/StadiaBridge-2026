@@ -2,7 +2,17 @@
 
 Aplicación gratuita para Windows x64 que convierte un mando Google Stadia **USB** en un mando **Xbox 360 virtual compatible con XInput**. Incluye visor interactivo, estilos Neón y Clásico, modo claro y oscuro, zona muerta y vibración USB.
 
-Proyecto independiente inspirado en [71/stadiacontroller](https://github.com/71/stadiacontroller), con [ViGEmClient](https://github.com/nefarius/ViGEmClient) y [ViGEmBus](https://github.com/nefarius/ViGEmBus). Los créditos completos, versiones y licencias están en [Funcionamiento y créditos](FUNCIONAMIENTO-Y-CREDITOS.md).
+Proyecto independiente con emulación [ViGEmClient](https://github.com/nefarius/ViGEmClient) / [ViGEmBus](https://github.com/nefarius/ViGEmBus) e inspirado en el protocolo de [71/stadiacontroller](https://github.com/71/stadiacontroller). Los créditos completos y licencias se detallan en [Funcionamiento y créditos](FUNCIONAMIENTO-Y-CREDITOS.md).
+
+<p align="center">
+  <img src="docs/screenshots/stadia-bridge-neon-dark.png" alt="Stadia Bridge - Neón Oscuro" width="49%" />
+  <img src="docs/screenshots/stadia-bridge-classic-dark.png" alt="Stadia Bridge - Clásico Xbox" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/stadia-bridge-neon-light.png" alt="Stadia Bridge - Neón Claro" width="49%" />
+  <img src="docs/screenshots/stadia-bridge-classic-light.png" alt="Stadia Bridge - Clásico Claro" width="49%" />
+</p>
+
 
 ## Instalar y usar
 
